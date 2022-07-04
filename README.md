@@ -1,8 +1,6 @@
-# New Repo Project
+# Tail running - augments a .gpx file exported from Caltopo with altitude 
 
-The new-repo project is a default template for .NET Foundation projects. It's also probably a fine start for other .NET projects (have at it, but change the license). It contains the correct license, a decent README, and initial project structure (including a standard .gitignore for the Visual Studio family of products).
-
-You can learn more about the project from the project [Documentation](Documentation).
+[Caltopo](https://caltopo.com/) is an amazing cartographic tool. It enables you to prepare your trail runs or hikes. For example here is a map of the [Tiger Peak challenge 2022](https://caltopo.com/m/HBK3) by the [Evergreen trail runs](https://www.evergreentrailruns.com/tiger-peak-challenge/). Once you have prepared your race, you can export it to a format that watches like Garmin and Coros can read (with the [.gpx](https://fileinfo.com/extension/gpx) file format). Unfortunately, the caltopo export function as .gpx does not have the elevations. However caltopo also enables you to export the race profile as a .csv (comma separated values) file. By combining the information of both files, you can get a .gpx file with elevations. This is the object of the tool in this repo. 
 
 ## Using New Repo
 
